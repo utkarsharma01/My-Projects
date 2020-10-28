@@ -1,6 +1,6 @@
 import pyttsx3
 import PyPDF2
-book = open('C://Users//UTKARSH//Downloads//oops.pdf', 'rb')
+book = open('oops.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
 print(pages)
